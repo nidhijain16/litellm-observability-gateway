@@ -1,0 +1,33 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Environments and API Keys
+.env
+*.env
+.env.*
+*.key
+*.pem
+
+# Observability local cache and logs
+.langfuse/
+*.log
+logs/
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
