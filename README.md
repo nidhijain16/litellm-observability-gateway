@@ -1,11 +1,11 @@
-# 🤖 Module 3: Production LLM Observability & LiteLLM Gateway
+# Production LLM Observability & LiteLLM Gateway
 
 > **Time Commitment:** Hour 4 of the 5-Hour Sprint  
 > **Target Mastery:** Multi-provider LLM routing, automatic failover, latency tracking, token budgeting (FinOps), and Langfuse/OpenTelemetry observability.
 
 ---
 
-## 📖 1. Why Fintech Platforms Need an AI Gateway
+## 📖 1. Why Company Platforms Need an AI Gateway
 
 Directly calling `openai.OpenAI()` or `anthropic.Anthropic()` in production microservices creates critical enterprise risks:
 
